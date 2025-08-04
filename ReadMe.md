@@ -13,7 +13,7 @@ Le projet inclut une **barre de recherche dynamique** qui permet de filtrer les 
 
 ## 📸 Aperçu
 
-![Aperçu du site](./images/C2-abstract.png)
+![Aperçu du site](https://www.frontendpractice.com/fullsize/C2-abstract.png)
 
 ---
 
@@ -41,4 +41,5 @@ Frontend-Abstract-Landing-Page/
 │── style.css
 │── script.js
 │── screenshot.png
+
 └── README.md
