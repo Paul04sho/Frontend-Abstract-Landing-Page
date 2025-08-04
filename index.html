@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend practice | Landing page</title>
+    <link rel="icon" type="image/x-icon" href="images/site-icon.png">
+    <!--Inter Font family-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h2>Abstract | Help Center</h2>
+            </div>
+            <ul>
+                <li><a href="#" class="nav-links">Submit a request</a></li>
+                <li><a href="#" class="nav-links">Sign in</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>How can we help?</h2>
+                <div class="search-container">
+                    <input type="search" placeholder="Search" class="search-bar">
+                    <button type="submit" class="search-button">
+                         &#x2192; <!--Unicode for right arrow-->
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="cards-grid">
+            <article class="card">
+                <img src="images/icon-versions.png" class="card-img">
+                <h2>Branches</h2>
+                <p>
+                    Abstract branches let you manage, version, and document
+                    your designs in one place.
+                </p>
+                <a href="#" class="card-link">Learn more →</a>
+            </article>
+
+            <article class="card">
+                <img src="images/icon-account.png" class="card-img">
+                <h2>Manage your account</h2>
+                <p>
+                   Configure your account settings, such as your email, profile details
+                   and password.
+                </p>
+                <a href="#" class="card-link">Learn more →</a>
+            </article>
+
+            <article class="card">
+                <img src="images/icon-organizations.png" class="card-img">
+                <h2>Manage organizations, teams and projects</h2>
+                <p>
+                    Use Abstract organizations, teams and projects to organize your 
+                    people and your work.
+                </p>
+                <a href="#" class="card-link">Learn more →</a>
+            </article>
+
+            <article class="card">
+                <img src="images/icon-billing.png" class="card-img">
+                <h2>Manage billing</h2>
+                <p> 
+                    Change subscriptions and payment details.
+                </p>
+                <a href="#" class="card-link">Learn more →</a>
+            </article>
+
+            <article class="card">
+                <img src="images/icon-authenticate.png" class="card-img">
+                <h2>Authenticate to Abstract</h2>
+                <p> 
+                    Set up and configure SSO, SCIM and Just-in-Time provisioning.
+                </p>
+                <a href="#" class="card-link">Learn more →</a>
+            </article>
+
+            <article class="card">
+                <img src="images/icon-comment.png" class="card-img">
+                <h2>Abstract support</h2>
+                <p> 
+                   Get in touch with a human.
+                </p>
+                <a href="#" class="card-link">Learn more →</a>
+            </article>
+        </section>
+    </main>
+
+    <!--Footer main-->
+    <footer>
+        <section class="ft-main">
+            <div class="ft-main-item">
+                <h2 class="ft-title">About</h2>
+                <ul>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Customers</a></li>
+                     <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+
+            <div class="ft-main-item">
+                <h2 class="ft-title">Resources</h2>
+                <ul>
+                    <li><a href="#">Docs</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">eBooks</a></li>
+                    <li><a href="#">Webinars</a></li>
+                </ul>
+            </div>
+
+            <div class="ft-main-item">
+                <h2 class="ft-title">Contact</h2>
+                <ul>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Sales</a></li>
+                    <li><a href="#">Advertise</a></li>
+                </ul>
+            </div>
+
+            <div class="ft-main-item">
+                <h2 class="ft-title">Stay Updated</h2>
+                <p>Subscribe to our newsletter to get our latest news.</p>
+                <form>
+                    <input type="email" name="email" placeholder="Enter email adress">
+                    <input type="submit" value="Subscribe">
+                </form>
+            </div>
+        </section>
+
+        <!--Footer social-->
+        <section class="ft-social">
+            <ul class="ft-social-list">
+                <li><a href="#" class="fa fa-facebook"></a></li>
+                <li><a href="https://x.com/LossaWrld" class="fa fa-twitter"></a></li>
+                <li><a href="#" class="fa fa-instagram"></a></li>
+                <li><a href="https://github.com/Paul04sho" class="fa fa-github"></a></li>
+                <li><a href="https://www.linkedin.com/in/paultchoume01/" class="fa fa-linkedin"></a></li>
+                <li><a href="#" class="fa fa-youtube"></a></li>
+            </ul>
+        </section>
+
+        <!--Footer legal-->
+        <section class="ft-legal">
+            <ul class="ft-legal-list">
+                <li><a href="#">Terms &amp; Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li>&copy; 2025 Copyright Abstract Inc.</li>
+            </ul>
+        </section>
+    </footer>
+    <!--Main script-->
+    <script src="JS/main.js"></script>
+</body>
+</html>
